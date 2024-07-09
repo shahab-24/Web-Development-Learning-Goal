@@ -316,3 +316,78 @@ line-height: 36px;
 letter-spacing: 0%;
 text-align: left;
 }
+
+
+/* need support styles */
+
+.support_container{
+  border-radius: 16px;
+  border: 2px solid red;
+
+background:
+ url('./assets/handshake.jpg');
+/* background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+ url('./assets/handshake.jpg'); */
+margin: 0 auto;
+margin-top: 50px;
+width: 1140px;
+height: 314px;
+background-position: center;
+background-size: cover;
+
+
+
+
+/* display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 64px 48px 64px 48px; */
+
+
+}
+
+.support_input_container{
+  /* Frame 9 */
+/* position: static; */
+width: 1044px;
+height: 186px;
+/* Auto layout */
+/* display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px; */
+border: 3px solid red;
+
+
+/* Inside Auto Layout */
+/* flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px; */
+margin: 0 auto;
+margin-top: 50px;
+
+}
+
+.support_container h3{
+  color: rgb(255, 255, 255);
+  
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.support_container p{
+  color: rgb(255, 255, 255);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
