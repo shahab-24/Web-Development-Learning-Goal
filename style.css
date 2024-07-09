@@ -60,3 +60,153 @@ body {
   color: white;
   margin-top: 20px;
 }
+
+/* why dev styles */
+.why_dev_container{
+  width: 1140px;
+height: 1040px;
+
+
+/* Auto layout */
+/* display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center; */
+padding: 80px 97px 80px 97px;
+border-radius: 16px;
+border: 3px solid red;
+background: rgba(13, 19, 33, 0.02);
+margin: 0 auto;
+margin-top: 100px;
+text-align: center;
+}
+
+.why_dev_title{
+  color: rgb(13, 19, 33);
+
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.why_dev_description{
+  color: rgb(13, 19, 33);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 20px;
+  
+}
+
+.do_coding_container{
+  border: 3px solid red;
+  display: flex;
+  flex-direction: flex-start;
+
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  text-align: left;
+  padding: 0 30px;
+  
+
+}
+
+.do_coding_container p{
+  margin-top: 10px;
+  color: rgb(13, 19, 33);
+  
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.do_coding_container h3{
+  color: rgba(13, 19, 33, 0.7);
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.do_coding_title{
+  text-align: left;
+}
+
+.do_coding_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  
+  
+  
+}
+
+.why_do_btn{
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+width: 150px;
+height: 48px;
+color: rgb(13, 19, 33);
+font-size: 15px;
+text-align: center;
+margin-top: 10px;
+
+}
+
+
+
+
+
+/* help people section */
+.help_people_container{
+  border: 3px solid red;
+  display: flex;
+  flex-direction: flex-start;
+
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  text-align: left;
+  padding: 0 30px;
+  
+}
+
+.help_people_container img{
+  margin-right: 20px;
+}
+
+.help_people_container h3{
+  color: rgba(13, 19, 33, 0.7);
+
+font-size: 20px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.help_people_container p{
+  color: rgb(13, 19, 33);
+  
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 10px;
+
+}
+
+
