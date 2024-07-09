@@ -65,13 +65,6 @@ body {
 .why_dev_container{
   width: 1140px;
 height: 1040px;
-
-
-/* Auto layout */
-/* display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: center; */
 padding: 80px 97px 80px 97px;
 border-radius: 16px;
 border: 3px solid red;
@@ -207,6 +200,50 @@ text-align: left;
   text-align: left;
   margin-top: 10px;
 
+}
+
+
+/* inspiration styles */
+
+
+
+.inspiration_container{
+  
+
+width: 1140px;
+height: 650px;
+border: 2px solid red;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+margin: 0 auto;
+margin-top: 30px;
+
+
+}
+
+.inspiration_container h3{
+  color: rgb(13, 19, 33);
+
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 30px;
+}
+
+.inspiration_container p{
+  color: rgb(13, 19, 33);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
 }
 
 
